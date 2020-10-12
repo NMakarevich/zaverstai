@@ -136,55 +136,20 @@ article > h2 {
 	margin-bottom: 49px;
 }
 
-.all-articles .show-all {
-	margin-top: 42px;
-}
 
 .portfolio .show-all {
 	margin-top: 104px;
 }
 
-.full-article {
-	display: flex;
-	flex-direction: column;
-	width: 998px;
-	margin-bottom: 65px;
-}
 
-.article-head {
-	margin-bottom: 50px;
-}
-
-.article-head h2 {
-	margin: 0;
-}
-
-.article-head .article-info {
-	justify-content: flex-start;
-	margin-top: 0;
-}
-
-.article-head .article-info .tags {
-	margin-right: 18px;
-}
-
-.content p {
-	margin-bottom: 26px;
-}
-
-figure {
-	margin: 0;
-	margin-bottom: 40px;
-}
-
-figure img {
-	border-radius: 0;
-}
 
 /* Articles */
 
 .all-articles {
 	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .articles-header {
@@ -196,38 +161,6 @@ figure img {
 .articles-header h2 {
 	margin: 0;
 }
-
-/*.articles-header .select-theme {
-	padding-left: 20px;
-	width: 203px;
-	appearance: none;
-	border: none;
-	background-color: #D7D1C9;
-}
-
-.select {
-	position: relative;
-}
-
-.select:after {
-    content: url("img/arrow.png");
-    display: block;
-    pointer-events: none;
-    position: absolute;
-    top: 16px;
-    right: 15px;
-    z-index: 2;
-}
-
-.select-theme option {
-	border-radius: 10px;
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 22px;
-}*/
-
 
 .themes span {
 	font-family: Open Sans;
@@ -293,10 +226,6 @@ figure img {
 	display: none;
 }
 
-.visible {
-	display: block;
-}
-
 .articles {
 	display: flex;
 	justify-content: space-between;
@@ -321,7 +250,6 @@ figure img {
 	height: 552px;
 	color: #FFFFFF;
 }
-
 
 .article-big .article-description {
 	position: absolute;
@@ -357,6 +285,48 @@ figure img {
 
 .article-info p {
 	color: rgba(46, 47, 34, 0.7);
+}
+
+.all-articles .show-all {
+	margin-top: 42px;
+}
+/* full-article */
+
+.full-article {
+	display: flex;
+	flex-direction: column;
+	width: 998px;
+	margin-bottom: 65px;
+}
+
+.article-head {
+	margin-bottom: 50px;
+}
+
+.article-head h2 {
+	margin: 0;
+}
+
+.article-head .article-info {
+	justify-content: flex-start;
+	margin-top: 0;
+}
+
+.article-head .article-info .tags {
+	margin-right: 18px;
+}
+
+.content p {
+	margin-bottom: 26px;
+}
+
+figure {
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+figure img {
+	border-radius: 0;
 }
 
 .social {
