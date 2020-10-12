@@ -1,6 +1,7 @@
 let textField = document.querySelector("textarea");
 let submitBtn = document.querySelector("input[type=submit]");
 
+submitBtn.disabled = true;
 
 textField.oninput = function() {
 	if(textField.value.length < 10 || textField.value.length > 200) {
