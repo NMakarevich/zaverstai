@@ -62,7 +62,6 @@ a {
 	color: #2E2F22;
 }
 
-
 img {
 	border-radius: 10px;
 }
@@ -80,6 +79,14 @@ img {
 	cursor: pointer;
 }
 
+input, textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	outline: none;
+}
 
 /* header */
 
