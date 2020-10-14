@@ -33,7 +33,7 @@ h3 {
 
 p {
 	margin: 0;
-	font-family: OpenSans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -42,7 +42,7 @@ p {
 }
 
 ul {
-	font-family: OpenSans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	list-style: none;
@@ -157,7 +157,7 @@ article > h2 {
 }
 
 .themes span {
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -338,7 +338,8 @@ figure img {
 
 .likes .likes-count {
 	margin-left: 14px;
-	font-family: 'OpenSans';
+	vertical-align: top;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -413,7 +414,7 @@ figure img {
 	margin-top: 98px;
 	padding-left: 20px;
 	box-sizing: border-box;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-weight: normal;
 	font-size: 30px;
@@ -510,7 +511,7 @@ figure img {
 }
 
 .write-me label {
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
