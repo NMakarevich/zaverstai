@@ -338,7 +338,6 @@ figure img {
 
 .likes .likes-count {
 	margin-left: 14px;
-	vertical-align: top;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -621,10 +620,6 @@ figure img {
 	border: none;
 	border-bottom: 1px solid #2E2F22;
 }
-
-.add-comment input:focus {
-	border: none;
-} 
 
 .add-comment input[type="submit"] {
 	margin-top: 18px;
