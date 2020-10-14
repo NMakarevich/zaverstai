@@ -82,18 +82,18 @@ img {
 
 /* header */
 
+header {
+	background-size: cover;
+	min-height: 541px;
+	margin-bottom: 83px;
+}
+
 .header-index {
 	background-image: url("img/bg-header.png");
-	background-size: cover;
-	height: 541px;
-	margin-bottom: 83px;
 }
 
 .header-article {
 	background-image: url("img/bg-header2.png");
-	background-size: cover;
-	height: 541px;
-	margin-bottom: 83px;
 }
 
 .header {
