@@ -1,6 +1,6 @@
 let commentForm = document.querySelector('.add-comment');
 let commentsField = document.querySelector('.comments-field');
-let autorInput = document.querySelector('input[name=user-name]');
+let authorInput = document.querySelector('input[name=user-name]');
 let emailInput = document.querySelector('input[name=email]');
 
 
@@ -41,7 +41,7 @@ commentForm.onsubmit = function (evt) {
 
 	commentsField.append(newComment);
 
-	autorInput.value = '';
+	authorInput.value = '';
 	emailInput.value = '';
 	textField.value = '';
 }
